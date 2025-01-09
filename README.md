@@ -134,7 +134,6 @@ Using synthetic data improved performance in models trained on smaller datasets.
 
 ## Installation
 
-1.Word2Vec
 [GitHub: Turkish Word2Vec](https://github.com/akoksal/Turkish-Word2Vec)
 
 [Article: Article]((https://dergipark.org.tr/tr/download/article-file/1664504))
@@ -142,19 +141,6 @@ Using synthetic data improved performance in models trained on smaller datasets.
 
 [Download: TurkishWord2Vec](https://drive.google.com/drive/folders/1IBMTAGtZ4DakSCyAoA4j7Ch0Ft1aFoww)
 
-
-https://github.com/imayda/turkish-hate-speech-dataset-2
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the preprocessing and training scripts:
-   ```bash
-   python preprocess.py
-   python train_model.py
-   ```
-
----
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
