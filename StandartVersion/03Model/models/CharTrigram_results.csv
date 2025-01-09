@@ -1,0 +1,2 @@
+Model,Vectorization Method,Accuracy,Precision,Recall,F1 Score
+ANN,CharTrigram,0.783677482792527,0.8186146045795961,0.783677482792527,0.7961082317500037

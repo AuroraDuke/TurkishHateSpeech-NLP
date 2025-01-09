@@ -1,0 +1,2 @@
+Model,Vectorization Method,Accuracy,Precision,Recall,F1 Score
+ANN,TurkishWord2Vec,0.2629037126471476,0.5810944442637586,0.2629037126471476,0.2155338357874727

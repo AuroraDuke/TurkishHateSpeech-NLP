@@ -1,0 +1,2 @@
+Model,Vectorization Method,Accuracy,Precision,Recall,F1 Score
+ANN,WordUnigram,0.8166175024582104,0.8144503280741366,0.8166175024582104,0.8154462876376322

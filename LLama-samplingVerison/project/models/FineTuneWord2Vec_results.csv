@@ -1,0 +1,2 @@
+Model,Vectorization Method,Accuracy,Precision,Recall,F1 Score
+ANN,FineTuneWord2Vec,0.172049501961968,0.6584664576384233,0.172049501961968,0.0611515624381899
