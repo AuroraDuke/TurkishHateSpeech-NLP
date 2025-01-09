@@ -145,6 +145,53 @@ Using synthetic data improved performance in models trained on smaller datasets.
 
 [Download: TurkishWord2Vec](https://drive.google.com/drive/folders/1IBMTAGtZ4DakSCyAoA4j7Ch0Ft1aFoww)
 
+```
+Twitter Hate Speech Detection/
+├── LLama-samplingVerison/
+│ ├── llama3.1-7B/
+│ │ ├── [00] prompt/
+│ │ │ ├── part1.py
+│ │ │ ├── part2.py
+│ │ │ ├── ...
+│ │ ├── [01] filter/
+│ │ │ ├── ...
+│ │ ├── [03] zemberek/
+│ │ │ ├── zemberek.ipynb (You need to look Zemberek-Github)
+│ │ │ ├── ...
+│ │ ├── [04]Word2Vec/
+│ │ │ ├── turkishword2vec/
+│ │ │ | ├── trmodel (You need to download turkishWord2Vec)
+│ │ │ ├── finetune_trmodel.ipynb
+│ │ │ ├── ...
+│ ├── project/
+│ │ ├── functions/
+│ │ | ├── turkishword2vec/
+| | | | ├── trmodel(You need to upload turkishWord2Vec)
+│ │ | ├── turkishword2vec_Llama_finetune/
+| | | | ├── finetunemodel(You need to upload finetune turkishWord2Vec)
+│ │ ├── main.ipynb (project -synthetic one- main file)
+│ │ │ ├── ...
+├── StandartVersion
+│ ├── [] OldVersion
+│ ├──00Filter_megree
+│ ├──01Zemberek-process
+│ ├──02fine-tuning process
+│ │ ├── Word2vecfinetune/Word2Vec/
+│ │ │ ├── turkishword2vec/
+│ │ │ | ├── trmodel (You need to download turkishWord2Vec)
+│ │ │ ├── finetune_trmodel.ipynb
+│ │ │ ├── ...
+│ ├──03Model
+│ │ ├── functions/
+│ │ | ├── turkishword2vec/
+| | | | ├── trmodel(You need to upload turkishWord2Vec)
+│ │ | ├── turkishword2vec_Llama_finetune/
+| | | | ├── finetunemodel(You need to upload finetune turkishWord2Vec)
+│ │ ├── 00main.ipynb (project -non-synthetic- main file)
+│ │ │ ├── ...
+
+├── Script//runable code such as  NewPytorch.ipynb
+```
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
