@@ -4,6 +4,9 @@
 This project focuses on detecting hate speech in Turkish tweets using machine learning (ML) and deep learning (DL) models. By leveraging synthetic and non-synthetic datasets, the project compares different vectorization methods and model performances to identify the most effective techniques for hate speech detection.
 
 ---
+# Project Workflow
+
+CSV Merge ➡️ CSV Cleaning ➡️ Zemberek ➡️ Fine-Tune Word2Vec ➡️ Fitting ➡️ Results
 
 ## Objectives
 - Detect hate speech in Turkish tweets.
