@@ -8,6 +8,7 @@ This project focuses on detecting hate speech in Turkish tweets using machine le
 
 CSV Merge ➡️ CSV Cleaning ➡️ Zemberek ➡️ Fine-Tune Word2Vec ➡️ Fitting ➡️ Results
 
+---
 ## Objectives
 - Detect hate speech in Turkish tweets.
 - Compare the performance of synthetic and non-synthetic datasets.
