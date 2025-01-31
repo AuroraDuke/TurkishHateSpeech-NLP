@@ -25,7 +25,7 @@ Social media platforms provide an environment where individuals can freely expre
 The datasets used in the study were divided into two main groups: synthetic and non-synthetic. The same preprocessing procedures were applied to both datasets:
 
 1. **Non-Synthetic Dataset**: A dataset consisting of existing hate speech texts.
-2. **Synthetic Dataset**: Synthetic data generation, using the Llama 3.1 7D language model, was structured to add new texts to the existing dataset and enrich the dataset. This process was structured to help balance the unbalanced classes.
+2. **Synthetic Dataset**: **Synthetic data generation, using the Llama 3.1 8B** language model, was structured to add new texts to the existing dataset and enrich the dataset. This process was structured to help balance the unbalanced classes.
    - To overcome the problems caused by imbalanced data classes, the SMOTE (Synthetic Minority Oversampling Technique) method was applied. The same data processing and modeling procedures were applied to both datasets.
 
 ### Data Preprocessing
